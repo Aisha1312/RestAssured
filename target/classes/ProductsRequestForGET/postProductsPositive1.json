@@ -1,0 +1,12 @@
+{
+  "name": "IceApple",
+  "type": "Apple",
+  "price": 10,
+  "shipping": 10,
+  "upc": "string",
+  "description": "string",
+  "manufacturer": "string",
+  "model": "string",
+  "url": "string",
+  "image": "string"
+}

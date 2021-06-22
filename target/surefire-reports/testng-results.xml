@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="8621" started-at="2021-06-22T18:25:50Z" finished-at="2021-06-22T18:25:59Z">
+    <groups>
+      <group name="Products">
+        <method signature="ProductTest.deleteProductsTestById()[pri:6, instance:ProductTest@61dc03ce]" name="deleteProductsTestById" class="ProductTest"/>
+        <method signature="ProductTest.getProductsResponseTest()[pri:1, instance:ProductTest@61dc03ce]" name="getProductsResponseTest" class="ProductTest"/>
+        <method signature="ProductTest.getProductsTest()[pri:0, instance:ProductTest@61dc03ce]" name="getProductsTest" class="ProductTest"/>
+        <method signature="ProductTest.getProductsTestById()[pri:5, instance:ProductTest@61dc03ce]" name="getProductsTestById" class="ProductTest"/>
+        <method signature="ProductTest.postProductsTest()[pri:2, instance:ProductTest@61dc03ce]" name="postProductsTest" class="ProductTest"/>
+        <method signature="ProductTest.postProductsTestWithResponse()[pri:4, instance:ProductTest@61dc03ce]" name="postProductsTestWithResponse" class="ProductTest"/>
+        <method signature="ProductTest.postProductsTestWithResponseForDifferentDataSets(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:ProductTest@61dc03ce]" name="postProductsTestWithResponseForDifferentDataSets" class="ProductTest"/>
+      </group> <!-- Products -->
+    </groups>
+    <test name="Command line test" duration-ms="8621" started-at="2021-06-22T18:25:50Z" finished-at="2021-06-22T18:25:59Z">
+      <class name="ProductTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ProductTest@61dc03ce]" name="setUp" is-config="true" duration-ms="53" started-at="2021-06-22T23:55:50Z" finished-at="2021-06-22T23:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getProductsTest()[pri:0, instance:ProductTest@61dc03ce]" name="getProductsTest" duration-ms="2237" started-at="2021-06-22T23:55:50Z" finished-at="2021-06-22T23:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ProductTest@61dc03ce]" name="setUp" is-config="true" duration-ms="4" started-at="2021-06-22T23:55:53Z" finished-at="2021-06-22T23:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getProductsResponseTest()[pri:1, instance:ProductTest@61dc03ce]" name="getProductsResponseTest" duration-ms="595" started-at="2021-06-22T23:55:53Z" finished-at="2021-06-22T23:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsResponseTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ProductTest@61dc03ce]" name="setUp" is-config="true" duration-ms="4" started-at="2021-06-22T23:55:53Z" finished-at="2021-06-22T23:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postProductsTest()[pri:2, instance:ProductTest@61dc03ce]" name="postProductsTest" duration-ms="463" started-at="2021-06-22T23:55:53Z" finished-at="2021-06-22T23:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postProductsTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ProductTest@61dc03ce]" name="setUp" is-config="true" duration-ms="2" started-at="2021-06-22T23:55:55Z" finished-at="2021-06-22T23:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postProductsTestWithResponseForDifferentDataSets(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:ProductTest@61dc03ce]" name="postProductsTestWithResponseForDifferentDataSets" duration-ms="348" started-at="2021-06-22T23:55:55Z" data-provider="getData" finished-at="2021-06-22T23:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gulelus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fruit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tasty]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[From Andhra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Mali]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Banganpalli]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[String]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[String]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[201.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postProductsTestWithResponseForDifferentDataSets -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ProductTest@61dc03ce]" name="setUp" is-config="true" duration-ms="2" started-at="2021-06-22T23:55:55Z" finished-at="2021-06-22T23:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postProductsTestWithResponseForDifferentDataSets(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:ProductTest@61dc03ce]" name="postProductsTestWithResponseForDifferentDataSets" duration-ms="209" started-at="2021-06-22T23:55:55Z" data-provider="getData" finished-at="2021-06-22T23:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apples]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fruit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tasty]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[From TamilNadu]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Bali]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Kalapad]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[String]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[String]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[201.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postProductsTestWithResponseForDifferentDataSets -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ProductTest@61dc03ce]" name="setUp" is-config="true" duration-ms="3" started-at="2021-06-22T23:55:55Z" finished-at="2021-06-22T23:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postProductsTestWithResponseForDifferentDataSets(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:ProductTest@61dc03ce]" name="postProductsTestWithResponseForDifferentDataSets" duration-ms="70" started-at="2021-06-22T23:55:55Z" data-provider="getData" finished-at="2021-06-22T23:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fruit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tasty]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[From TamilNadu]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Bali]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Banganpalli]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[String]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[String]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[400.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postProductsTestWithResponseForDifferentDataSets -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ProductTest@61dc03ce]" name="setUp" is-config="true" duration-ms="3" started-at="2021-06-22T23:55:55Z" finished-at="2021-06-22T23:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postProductsTestWithResponseForDifferentDataSets(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:ProductTest@61dc03ce]" name="postProductsTestWithResponseForDifferentDataSets" duration-ms="58" started-at="2021-06-22T23:55:55Z" data-provider="getData" finished-at="2021-06-22T23:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gauva]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tasty]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[from Delhi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Bali]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Red colour]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[String]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[String]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[400.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postProductsTestWithResponseForDifferentDataSets -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ProductTest@61dc03ce]" name="setUp" is-config="true" duration-ms="3" started-at="2021-06-22T23:55:55Z" finished-at="2021-06-22T23:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postProductsTestWithResponse()[pri:4, instance:ProductTest@61dc03ce]" name="postProductsTestWithResponse" duration-ms="1735" started-at="2021-06-22T23:55:55Z" finished-at="2021-06-22T23:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postProductsTestWithResponse -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ProductTest@61dc03ce]" name="setUp" is-config="true" duration-ms="5" started-at="2021-06-22T23:55:57Z" finished-at="2021-06-22T23:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getProductsTestById()[pri:5, instance:ProductTest@61dc03ce]" name="getProductsTestById" duration-ms="1332" started-at="2021-06-22T23:55:57Z" finished-at="2021-06-22T23:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsTestById -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ProductTest@61dc03ce]" name="setUp" is-config="true" duration-ms="3" started-at="2021-06-22T23:55:58Z" finished-at="2021-06-22T23:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteProductsTestById()[pri:6, instance:ProductTest@61dc03ce]" name="deleteProductsTestById" duration-ms="637" started-at="2021-06-22T23:55:58Z" finished-at="2021-06-22T23:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProductsTestById -->
+      </class> <!-- ProductTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

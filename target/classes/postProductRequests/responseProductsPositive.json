@@ -1,0 +1,15 @@
+{
+    "id": 9999795,
+    "name": "Mangoes",
+    "type": "string",
+    "price": 0,
+    "shipping": 0,
+    "upc": "string",
+    "description": "string",
+    "manufacturer": "string",
+    "model": "string",
+    "url": "string",
+    "image": "string",
+    "updatedAt": "2021-06-22T18:17:01.638Z",
+    "createdAt": "2021-06-22T18:17:01.638Z"
+}
